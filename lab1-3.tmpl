@@ -1,0 +1,31 @@
+
+{% extends 'base.tmpl' %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+	<h3>
+	Задача1. Дана сторона квадрата a. Знайти його периметр P = 4 · a. Вивести
+	умову задачі, початкові значення та результуючі.
+	</h3>
+	<p>Cторона квадрата = {{ a }}</p>
+	<p>Периметр квадрата: {{ P }}</p>
+	<p><h3>
+	Задача16. Дано відстань L в сантиметрах. Використовуючи операцію ділення
+	націло, знайти кількість повних метрів в ньому (1 метр = 100 см). Вивести
+	умову задачі, початкові значення та результуючі.
+	</h3></p>
+	<p>Відстань: {{ L }}</p>
+	<p>Кількість повних метрів: = {{ full_meters }}</p>
+</body>
+</html>
+
+{% endblock content %}
